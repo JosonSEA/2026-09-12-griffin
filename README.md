@@ -6,7 +6,7 @@ This repository is The Carpentries' ([Software Carpentry][swc-site], [Data Carpe
 
 1. **Please _do not fork this repository directly on GitHub._** Instead, please use GitHub's
    "template" function following [the instructions below](#creating-a-repository) to copy this
-   `workshop-template` repository and customize it for your workshop.
+   `workshop-template` repository and customize it for your workshop. 
 
 2. Please *do your work in your repository's `gh-pages` branch*, since that is what is
    [automatically published as a website by GitHub][github-project-pages].
