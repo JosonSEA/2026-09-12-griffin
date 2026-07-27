@@ -3,7 +3,7 @@
 {% unless curricula contains site.curriculum %}
 {% include warning-curriculum.html %}
 {% endunless %}
-
+{% comment %}
 {% include install_instructions/shell.html %}
 
 <div class="info alert alert-info">
@@ -15,7 +15,7 @@
 </div>
 
 {% include install_instructions/git.html %}
-
+{% endcomment %}
 {% if site.flavor == "r" %}
 {% include install_instructions/r.html %}
 {% elsif site.flavor == "python" %}
